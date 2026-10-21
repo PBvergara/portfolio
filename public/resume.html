@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Paul Bryan B. Vergara — Resume</title>
+  <style>
+    @page { size: A4; margin: 11mm 13mm; }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    body {
+      color: #161a24;
+      background: #fff;
+      font-family: "Segoe UI", system-ui, sans-serif;
+      font-size: 10.4px;
+      line-height: 1.38;
+    }
+    header {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      padding-bottom: 9px;
+      border-bottom: 2.5px solid #171b28;
+    }
+    .photo {
+      width: 68px;
+      height: 68px;
+      border-radius: 50%;
+      object-fit: cover;
+      object-position: center 18%;
+      border: 2px solid #171b28;
+    }
+    h1 {
+      margin: 0;
+      font-size: 23px;
+      line-height: 1;
+      letter-spacing: -0.03em;
+    }
+    .role {
+      margin: 4px 0 5px;
+      color: #4d3dff;
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+    }
+    .contacts, .contacts a { color: #3c4458; text-decoration: none; }
+    h2 {
+      margin: 10px 0 3px;
+      padding-bottom: 2px;
+      border-bottom: 1px solid #e4e7f2;
+      color: #4d3dff;
+      font-size: 10.5px;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+    }
+    p { margin: 0; }
+    .item { margin-top: 6px; }
+    .row {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      align-items: baseline;
+    }
+    .row strong { font-size: 11.5px; }
+    .meta { color: #5c657a; white-space: nowrap; }
+    .sub { color: #3c4458; }
+    ul { margin: 2px 0 0; padding-left: 15px; }
+    li { margin: 1px 0; }
+    .skills { display: grid; gap: 2px; margin-top: 3px; }
+    .skills b { display: inline-block; min-width: 72px; }
+    a { color: #2a33c7; }
+  </style>
+</head>
+<body>
+  <header>
+    <img class="photo" src="/profile-resume.jpg" alt="Paul Bryan B. Vergara">
+    <div>
+      <h1>Paul Bryan B. Vergara</h1>
+      <p class="role">Software Developer</p>
+      <p class="contacts">
+        vergarapaul422@gmail.com
+        · <a href="https://github.com/PBvergara">github.com/PBvergara</a>
+        · <a href="https://www.linkedin.com/in/paul-bryan-vergara-21387a437">LinkedIn</a>
+        · Open to an IT internship
+      </p>
+    </div>
+  </header>
+
+  <h2>Summary</h2>
+  <p>
+    4th-year BS Information Technology student at National University Baliwag. I build full-stack web systems and 2D games, from reservation and dispatch tools to an AI interview platform. I care about a clear interface and software that solves a real task, and I am working toward becoming a game developer.
+  </p>
+
+  <h2>Projects</h2>
+  <div class="item">
+    <div class="row">
+      <strong>InterviewSenseAI</strong>
+      <span class="meta">Virtual interview platform · <a href="https://interviewsense-f28ee.web.app/">Live</a></span>
+    </div>
+    <p class="sub">AI interview practice with verbal feedback, facial-expression cues, and an HR view for applicant review. Firebase, Groq, Google Gemini, and face-api.js.</p>
+  </div>
+  <div class="item">
+    <div class="row">
+      <strong>NutriGoal</strong>
+      <span class="meta">Smart meal planner · <a href="https://nutri-goal-tawny.vercel.app/">Live</a></span>
+    </div>
+    <p class="sub">Builds Filipino-friendly meal plans from a person’s goal, budget, and restrictions, then saves or downloads the plan. React, Vite, Supabase, and Groq.</p>
+  </div>
+  <div class="item">
+    <div class="row">
+      <strong>BatoMatic</strong>
+      <span class="meta">E-commerce and dispatch · <a href="https://batomatic-1599f.web.app/">Live</a></span>
+    </div>
+    <p class="sub">Orders and deliveries for sand, gravel, and crushed stone, with maps, Google sign-in, and GCash through PayMongo. Supabase, PostgreSQL, and Leaflet.</p>
+  </div>
+  <div class="item">
+    <div class="row">
+      <strong>Michaela Private Resort</strong>
+      <span class="meta">Reservation system</span>
+    </div>
+    <p class="sub">Guest accounts and bookings for day tours, overnight stays, 18-hour swimming, and events. Django, Tailwind CSS, and SQLite.</p>
+  </div>
+  <div class="item">
+    <div class="row">
+      <strong>PesoWise</strong>
+      <span class="meta">Personal finance tracker · <a href="https://pesowise-six.vercel.app/">Live</a></span>
+    </div>
+    <p class="sub">Records income, expenses, budgets, and savings goals in Philippine pesos. Savings are entered manually and are not connected to a bank. React, TypeScript, Node.js, and PostgreSQL.</p>
+  </div>
+  <div class="item">
+    <div class="row">
+      <strong>JuanVenture</strong>
+      <span class="meta">2D adventure game · Godot 4.5</span>
+    </div>
+    <p class="sub">A Philippine-history game across Luzon, Visayas, and Mindanao. The player recovers three artifacts and avoids guardians such as the Minokawa, Manananggal, and Tiktik.</p>
+  </div>
+
+  <h2>Skills</h2>
+  <div class="skills">
+    <div><b>Frontend</b> HTML, CSS, JavaScript, React, Tailwind CSS, Vite</div>
+    <div><b>Backend</b> Python, Django, Firebase, Supabase, Google Apps Script</div>
+    <div><b>Data</b> PostgreSQL, Cloud Firestore, SQLite</div>
+    <div><b>AI</b> Groq, Google Gemini, face-api.js</div>
+    <div><b>Game</b> Godot, GDScript</div>
+    <div><b>Also used</b> Leaflet, PayMongo, Capacitor, Android WebView</div>
+  </div>
+
+  <h2>Education</h2>
+  <div class="row">
+    <strong>BS Information Technology</strong>
+    <span class="meta">4th year</span>
+  </div>
+  <p class="sub">National University Baliwag</p>
+
+  <h2>Certification and recognition</h2>
+  <div class="item">
+    <div class="row">
+      <strong>Information Technology Specialist in Cybersecurity</strong>
+      <span class="meta">Issued June 2026 · Valid through June 2031</span>
+    </div>
+    <p class="sub">Certiport. Passed June 4, 2026, administered at National University Baliwag. Verified on Credly.</p>
+  </div>
+  <div class="item">
+    <div class="row">
+      <strong>PSITE Region 3 proceedings, page 216</strong>
+      <span class="meta">JuanVenture</span>
+    </div>
+    <p class="sub">JuanVenture: The Lost Artifact of the Archipelago, with Jeomir Galvez, Jian De Guzman, and Ken Lordian Derla.</p>
+  </div>
+</body>
+</html>
