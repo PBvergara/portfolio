@@ -265,7 +265,8 @@ export const timeline = [
     id: "education",
     kind: "Education",
     title: "BS Information Technology",
-    detail: "4th-year BSIT student at National University Baliwag.",
+    detail:
+      "4th-year BSIT student at National University Baliwag. Completed Junior and Senior High School at Liceo De Buenavista, STEM strand, 2017–2022.",
   },
   {
     id: "experience",

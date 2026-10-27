@@ -4,168 +4,186 @@
   <meta charset="utf-8">
   <title>Paul Bryan B. Vergara — Resume</title>
   <style>
-    @page { size: A4; margin: 11mm 13mm; }
+    @page { size: A4; margin: 12mm 14mm; }
     * { box-sizing: border-box; }
     html, body { margin: 0; padding: 0; }
     body {
-      color: #161a24;
+      color: #000;
       background: #fff;
-      font-family: "Segoe UI", system-ui, sans-serif;
-      font-size: 10.4px;
-      line-height: 1.38;
+      font-family: Calibri, Aptos, Arial, sans-serif;
+      font-size: 10.5pt;
+      line-height: 1.28;
     }
-    header {
-      display: flex;
-      align-items: center;
-      gap: 14px;
-      padding-bottom: 9px;
-      border-bottom: 2.5px solid #171b28;
-    }
-    .photo {
-      width: 68px;
-      height: 68px;
-      border-radius: 50%;
-      object-fit: cover;
-      object-position: center 18%;
-      border: 2px solid #171b28;
-    }
+    header { margin-bottom: 6px; text-align: center; }
     h1 {
       margin: 0;
-      font-size: 23px;
-      line-height: 1;
-      letter-spacing: -0.03em;
-    }
-    .role {
-      margin: 4px 0 5px;
-      color: #4d3dff;
-      font-size: 10px;
+      color: #000;
+      font-size: 22pt;
       font-weight: 700;
-      letter-spacing: 0.16em;
+      letter-spacing: 0.04em;
+      line-height: 1.1;
+      text-align: center;
       text-transform: uppercase;
     }
-    .contacts, .contacts a { color: #3c4458; text-decoration: none; }
+    .contact, .contact a {
+      margin: 2px 0 0;
+      color: #000;
+      font-size: 10pt;
+      text-align: center;
+      text-decoration: none;
+    }
     h2 {
-      margin: 10px 0 3px;
-      padding-bottom: 2px;
-      border-bottom: 1px solid #e4e7f2;
-      color: #4d3dff;
-      font-size: 10.5px;
-      letter-spacing: 0.14em;
+      margin: 8px 0 4px;
+      padding-bottom: 1px;
+      border-bottom: 1.25px solid #000;
+      color: #000;
+      font-size: 11.5pt;
+      font-weight: 700;
+      letter-spacing: 0.04em;
       text-transform: uppercase;
     }
     p { margin: 0; }
-    .item { margin-top: 6px; }
+    .block { margin-top: 5px; }
     .row {
       display: flex;
       justify-content: space-between;
-      gap: 12px;
+      gap: 16px;
       align-items: baseline;
     }
-    .row strong { font-size: 11.5px; }
-    .meta { color: #5c657a; white-space: nowrap; }
-    .sub { color: #3c4458; }
-    ul { margin: 2px 0 0; padding-left: 15px; }
-    li { margin: 1px 0; }
-    .skills { display: grid; gap: 2px; margin-top: 3px; }
-    .skills b { display: inline-block; min-width: 72px; }
-    a { color: #2a33c7; }
+    .org { font-weight: 700; }
+    .place, .dates {
+      color: #000;
+      white-space: nowrap;
+    }
+    .role { font-style: italic; }
+    ul {
+      margin: 1px 0 0;
+      padding-left: 18px;
+    }
+    li { margin: 0; }
+    .skills p { margin-top: 1px; }
+    .skills b { font-weight: 700; }
+    a { color: #000; }
   </style>
 </head>
 <body>
   <header>
-    <img class="photo" src="/profile-resume.jpg" alt="Paul Bryan B. Vergara">
-    <div>
-      <h1>Paul Bryan B. Vergara</h1>
-      <p class="role">Software Developer</p>
-      <p class="contacts">
-        vergarapaul422@gmail.com
-        · <a href="https://github.com/PBvergara">github.com/PBvergara</a>
-        · <a href="https://www.linkedin.com/in/paul-bryan-vergara-21387a437">LinkedIn</a>
-        · Open to an IT internship
-      </p>
-    </div>
+    <h1>Paul Bryan B. Vergara</h1>
+    <p class="contact">
+      Alagao, San Ildefonso, Bulacan
+      | <a href="mailto:vergarapaul422@gmail.com">vergarapaul422@gmail.com</a>
+      | 09284222826
+      | <a href="https://www.linkedin.com/in/paul-bryan-vergara-21387a437">linkedin.com/in/paul-bryan-vergara-21387a437</a>
+    </p>
   </header>
 
-  <h2>Summary</h2>
+  <h2>Professional Profile</h2>
   <p>
-    4th-year BS Information Technology student at National University Baliwag. I build full-stack web systems and 2D games, from reservation and dispatch tools to an AI interview platform. I care about a clear interface and software that solves a real task, and I am working toward becoming a game developer.
+    Information Technology student with hands-on experience in full-stack web development, game development, and AI-integrated systems. Built reservation, dispatch, finance, meal-planning, and virtual interview applications. Passionate about building software with a clear interface that solves a real task. Seeking an IT internship.
   </p>
 
+  <h2>Education</h2>
+  <div class="block">
+    <div class="row">
+      <span class="org">National University Baliwag</span>
+      <span class="place">Baliwag, Bulacan</span>
+    </div>
+    <div class="row">
+      <span>Bachelor of Science in Information Technology</span>
+      <span class="dates">Expected Graduation: 2027</span>
+    </div>
+  </div>
+  <div class="block">
+    <div class="row">
+      <span class="org">Liceo De Buenavista</span>
+      <span class="place">San Ildefonso, Bulacan</span>
+    </div>
+    <div class="row">
+      <span>Senior High School — Science, Technology, Engineering, and Mathematics (STEM)</span>
+      <span class="dates">2017 – 2022</span>
+    </div>
+  </div>
+
   <h2>Projects</h2>
-  <div class="item">
+  <div class="block">
     <div class="row">
-      <strong>InterviewSenseAI</strong>
-      <span class="meta">Virtual interview platform · <a href="https://interviewsense-f28ee.web.app/">Live</a></span>
+      <span class="org">InterviewSenseAI: Virtual Interview Platform</span>
+      <span class="dates">2025 – 2026</span>
     </div>
-    <p class="sub">AI interview practice with verbal feedback, facial-expression cues, and an HR view for applicant review. Firebase, Groq, Google Gemini, and face-api.js.</p>
+    <p class="role">Full-Stack Developer</p>
+    <ul>
+      <li>Built an AI interview practice platform with verbal feedback, facial-expression cues, and an HR view for applicant review.</li>
+      <li>Integrated Firebase, Groq, Google Gemini, and face-api.js for interview analysis and applicant management.</li>
+    </ul>
   </div>
-  <div class="item">
+  <div class="block">
     <div class="row">
-      <strong>NutriGoal</strong>
-      <span class="meta">Smart meal planner · <a href="https://nutri-goal-tawny.vercel.app/">Live</a></span>
+      <span class="org">NutriGoal: Smart Meal Planner</span>
+      <span class="dates">2025 – 2026</span>
     </div>
-    <p class="sub">Builds Filipino-friendly meal plans from a person’s goal, budget, and restrictions, then saves or downloads the plan. React, Vite, Supabase, and Groq.</p>
+    <p class="role">Full-Stack Developer</p>
+    <ul>
+      <li>Developed a meal planner that builds Filipino-friendly plans from a user’s goal, budget, and dietary restrictions.</li>
+      <li>Implemented save and PDF download flows with React, Vite, Supabase, and Groq.</li>
+    </ul>
   </div>
-  <div class="item">
+  <div class="block">
     <div class="row">
-      <strong>BatoMatic</strong>
-      <span class="meta">E-commerce and dispatch · <a href="https://batomatic-1599f.web.app/">Live</a></span>
+      <span class="org">BatoMatic: E-commerce and Dispatch</span>
+      <span class="dates">2024 – 2025</span>
     </div>
-    <p class="sub">Orders and deliveries for sand, gravel, and crushed stone, with maps, Google sign-in, and GCash through PayMongo. Supabase, PostgreSQL, and Leaflet.</p>
+    <p class="role">Full-Stack Developer</p>
+    <ul>
+      <li>Created an ordering and delivery system for sand, gravel, and crushed stone with maps and Google sign-in.</li>
+      <li>Connected GCash payments through PayMongo using Supabase, PostgreSQL, and Leaflet.</li>
+    </ul>
   </div>
-  <div class="item">
+  <div class="block">
     <div class="row">
-      <strong>Michaela Private Resort</strong>
-      <span class="meta">Reservation system</span>
+      <span class="org">Michaela Private Resort: Reservation System</span>
+      <span class="dates">2024 – 2025</span>
     </div>
-    <p class="sub">Guest accounts and bookings for day tours, overnight stays, 18-hour swimming, and events. Django, Tailwind CSS, and SQLite.</p>
+    <p class="role">Full-Stack Developer</p>
+    <ul>
+      <li>Built guest accounts and bookings for day tours, overnight stays, 18-hour swimming, and events using Django, Tailwind CSS, and SQLite.</li>
+    </ul>
   </div>
-  <div class="item">
+  <div class="block">
     <div class="row">
-      <strong>PesoWise</strong>
-      <span class="meta">Personal finance tracker · <a href="https://pesowise-six.vercel.app/">Live</a></span>
+      <span class="org">PesoWise: Personal Finance Tracker</span>
+      <span class="dates">2026</span>
     </div>
-    <p class="sub">Records income, expenses, budgets, and savings goals in Philippine pesos. Savings are entered manually and are not connected to a bank. React, TypeScript, Node.js, and PostgreSQL.</p>
+    <p class="role">Full-Stack Developer</p>
+    <ul>
+      <li>Designed a peso-based tracker for income, expenses, budgets, and savings goals with React, TypeScript, Node.js, and PostgreSQL.</li>
+    </ul>
   </div>
-  <div class="item">
+  <div class="block">
     <div class="row">
-      <strong>JuanVenture</strong>
-      <span class="meta">2D adventure game · Godot 4.5</span>
+      <span class="org">JuanVenture: 2D Adventure Game</span>
+      <span class="dates">2024 – 2025</span>
     </div>
-    <p class="sub">A Philippine-history game across Luzon, Visayas, and Mindanao. The player recovers three artifacts and avoids guardians such as the Minokawa, Manananggal, and Tiktik.</p>
+    <p class="role">Game Developer</p>
+    <ul>
+      <li>Developed a Philippine-history game across Luzon, Visayas, and Mindanao in which the player recovers three artifacts and avoids mythical guardians.</li>
+    </ul>
   </div>
+
+  <h2>Certifications &amp; Awards</h2>
+  <ul>
+    <li>Information Technology Specialist (ITS): Cybersecurity — Certiport</li>
+    <li>PSITE Region 3 Proceedings, page 216 — JuanVenture: The Lost Artifact of the Archipelago, with Jeomir Galvez, Jian De Guzman, and Ken Lordian Derla</li>
+  </ul>
 
   <h2>Skills</h2>
   <div class="skills">
-    <div><b>Frontend</b> HTML, CSS, JavaScript, React, Tailwind CSS, Vite</div>
-    <div><b>Backend</b> Python, Django, Firebase, Supabase, Google Apps Script</div>
-    <div><b>Data</b> PostgreSQL, Cloud Firestore, SQLite</div>
-    <div><b>AI</b> Groq, Google Gemini, face-api.js</div>
-    <div><b>Game</b> Godot, GDScript</div>
-    <div><b>Also used</b> Leaflet, PayMongo, Capacitor, Android WebView</div>
-  </div>
-
-  <h2>Education</h2>
-  <div class="row">
-    <strong>BS Information Technology</strong>
-    <span class="meta">4th year</span>
-  </div>
-  <p class="sub">National University Baliwag</p>
-
-  <h2>Certification and recognition</h2>
-  <div class="item">
-    <div class="row">
-      <strong>Information Technology Specialist in Cybersecurity</strong>
-      <span class="meta">Issued June 2026 · Valid through June 2031</span>
-    </div>
-    <p class="sub">Certiport. Passed June 4, 2026, administered at National University Baliwag. Verified on Credly.</p>
-  </div>
-  <div class="item">
-    <div class="row">
-      <strong>PSITE Region 3 proceedings, page 216</strong>
-      <span class="meta">JuanVenture</span>
-    </div>
-    <p class="sub">JuanVenture: The Lost Artifact of the Archipelago, with Jeomir Galvez, Jian De Guzman, and Ken Lordian Derla.</p>
+    <p><b>Front-End:</b> HTML, CSS, JavaScript, TypeScript, React, Tailwind CSS, Vite</p>
+    <p><b>Back-End:</b> Python, Django, Node.js, Express, Firebase, Supabase, Google Apps Script</p>
+    <p><b>Databases:</b> PostgreSQL, Prisma, Cloud Firestore, SQLite</p>
+    <p><b>AI:</b> Groq, Google Gemini, face-api.js</p>
+    <p><b>Game:</b> Godot, GDScript</p>
+    <p><b>Mobile:</b> Capacitor, Android WebView</p>
+    <p><b>Tools &amp; Platforms:</b> Git, GitHub, Leaflet, PayMongo, Docker, Vercel, Firebase Hosting</p>
   </div>
 </body>
 </html>
