@@ -152,7 +152,7 @@ export default function Profile() {
             <a className="btn btn-ghost" href="#contact">
               Contact Me
             </a>
-            <a className="btn btn-primary" href="/Paul-Bryan-B-Vergara-Resume.pdf" download="Paul-Bryan-B-Vergara-Resume.pdf">
+            <a className="btn btn-primary" href="/Paul-Bryan-B-Vergara-Resume.pdf?v=20261027" download="Paul-Bryan-B-Vergara-Resume.pdf">
               Download my resume
               <Download size={15} aria-hidden="true" />
             </a>

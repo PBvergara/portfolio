@@ -1,4 +1,3 @@
-import { Download } from "lucide-react";
 import { useId, useState } from "react";
 import { site } from "../data/site";
 import { validateContact } from "../lib/validate";
@@ -104,10 +103,6 @@ export default function Contact() {
                 <p className="section-lead">
                   Reach me by email or through the profiles below.
                 </p>
-                <a className="btn btn-primary resume-btn" href="/Paul-Bryan-B-Vergara-Resume.pdf" download="Paul-Bryan-B-Vergara-Resume.pdf">
-                  Download my resume
-                  <Download size={15} aria-hidden="true" />
-                </a>
                 <SocialList />
               </div>
               <form className="contact-form" onSubmit={handleSubmit} noValidate>
